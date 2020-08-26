@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int i,n,s=0;
+	printf("nhap n:");scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		if(i%6==0)
+		{
+		s+=i;
+		}
+	}
+	printf("tong cac so chan chia het cho 3 trong day la: %d",s);
+	printf("\n");
+	printf("Hoang Minh Tai_6051071102");
+	printf("\n");
+}
+
